@@ -4,7 +4,7 @@ import menu from '../assets/Lomo.png'
 
 const Pedido = () => {
   return (
-    <div className="card mb-3" >
+    <div className="card m-2" >
   <div className="row g-0">
     <div className="col-4">
       <img src={menu} className="img-fluid rounded-start" alt="..."></img>
