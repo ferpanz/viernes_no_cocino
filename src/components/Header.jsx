@@ -6,10 +6,10 @@ const Header = () => {
   return (
     
 
-<nav className="navbar bg-logo">
+<nav className="navbar bg-logo rounded-bottom-5">
   <div className="container-fluid justify-content-center">
     <a className="navbar-brand" href="#">
-      <img src={logo} alt="Logo" width="150" class="d-inline-block align-text-top"></img>
+      <img src={logo} alt="Logo" width="120" class="d-inline-block align-text-top"></img>
       
     </a>
   </div>
