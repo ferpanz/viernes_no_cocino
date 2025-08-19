@@ -1,10 +1,16 @@
 import React from 'react'
+import menu from '../assets/Lomo.png'
+import '../style.css'
 
 const Inicial = () => {
   return (
-    <div>
-      <h2>página Inicial</h2>
-      <p>Acá se ve: fecha | foto de menú y detalles | botón pedir </p>
+    <div className="card mx-auto mt-2" style={{ width: '18rem' }}>
+      <img src={menu} className="card-img-top" alt="Lomo" />
+      <div className="card-body">
+        <h5 className="card-title">Lomo Strogonoff con papas chips</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <a href="#" className="btn btn-primary">Pedir</a>
+      </div>
     </div>
   )
 }
