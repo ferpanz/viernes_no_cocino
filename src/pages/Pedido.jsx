@@ -6,7 +6,7 @@ import BtnCantidad from '../components/BtnCantidad'
 const plato = menuData[0]
 
 const Pedido = () => {
-  const [cantidad, setCantidad] = useState(0)
+  const [cantidad, setCantidad] = useState(1)
   const precioTotal = plato.precio * cantidad
 
   return (

@@ -3,7 +3,7 @@ import React from 'react'
 const BtnCantidad = ({ cantidad, setCantidad }) => {
   const agregar = () => setCantidad(cantidad + 1)
   const quitar = () => {
-    if (cantidad > 0) setCantidad(cantidad - 1)
+    if (cantidad > 1) setCantidad(cantidad - 1)
   }
 
   return (
@@ -11,7 +11,7 @@ const BtnCantidad = ({ cantidad, setCantidad }) => {
       <button
         className="btn btn-danger btn-sm"
         onClick={quitar}
-        disabled={cantidad === 0}
+        disabled={cantidad === 1}
       >-</button>
       <span className="fw-bold">{cantidad}</span>
       <button
