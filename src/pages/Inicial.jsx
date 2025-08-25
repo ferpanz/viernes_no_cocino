@@ -14,7 +14,7 @@ const Inicial = () => {
         <h5 className="card-title">{plato.nombre}</h5>
         <p className="card-text">{plato.descripcion}</p>
         <div className="text-end">
-          <Link to="/pedido" className="btn btn-primary">Pedir</Link>
+          <Link to="/pedido" className="btn btn-success">Pedir</Link>
         </div>
       </div>
     </div>
