@@ -14,7 +14,7 @@ const Pedido = () => {
 
   return (
     <>  
-      <div className="card m-2">
+      <div className="card m-2 mt-4">
         <div className="row g-0">
           <div className="col-4 my-auto">
             <img src={imagenLomo} className="img-fluid rounded-start" alt={plato.nombre} />
@@ -39,7 +39,7 @@ const Pedido = () => {
         precioTotal={precioTotal}
         nombre={nombre}
         plato={plato}
-        numero="5493571458866"
+       
       />
     </>
   )

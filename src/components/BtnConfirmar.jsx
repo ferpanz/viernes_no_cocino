@@ -2,8 +2,9 @@ import React from 'react'
 
 const BtnConfirmar = ({ cantidad, precioTotal, nombre, plato }) => {
   const handleClick = () => {
-    const mensaje = `Hola! Quiero pedir ${cantidad} ${plato.nombre} (${plato.descripcion}) por $${precioTotal}. Mi nombre es ${nombre}.`
-    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`
+    const mensaje = `Hola! Mi nombre es *${nombre}*.
+Quiero pedir *${cantidad} ${plato.nombre}* (${plato.descripcion}) por *$${precioTotal}*.`
+    const url = `https://wa.me/5493571458866?text=${encodeURIComponent(mensaje)}`
     window.open(url, '_blank')
   }
 
