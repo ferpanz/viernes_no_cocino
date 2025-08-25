@@ -9,6 +9,7 @@ const plato = menuData[0]
 
 const Pedido = () => {
   const [cantidad, setCantidad] = useState(1)
+  const [nombre, setNombre] = useState('')
   const precioTotal = plato.precio * cantidad
 
   return (
@@ -32,8 +33,14 @@ const Pedido = () => {
         </p>
         <BtnCantidad cantidad={cantidad} setCantidad={setCantidad} />
       </div>
-      <Formulario />
-      <BtnConfirmar />
+      <Formulario nombre={nombre} setNombre={setNombre} />
+      <BtnConfirmar
+        cantidad={cantidad}
+        precioTotal={precioTotal}
+        nombre={nombre}
+        plato={plato}
+        numero="5493571458866"
+      />
     </>
   )
 }
