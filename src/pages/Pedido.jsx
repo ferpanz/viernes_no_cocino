@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import menuData from '../data/menu.json'
 import imagenLomo from '../assets/Lomo.png'
 import BtnCantidad from '../components/BtnCantidad'
+import Formulario from '../components/Formulario'
+import BtnConfirmar from '../components/BtnConfirmar'
 
 const plato = menuData[0]
 
@@ -30,6 +32,8 @@ const Pedido = () => {
         </p>
         <BtnCantidad cantidad={cantidad} setCantidad={setCantidad} />
       </div>
+      <Formulario />
+      <BtnConfirmar />
     </>
   )
 }
