@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import menuData from '../data/menu.json'
-import imagenLomo from '../assets/Lomo.png'
+import imagenMenu from '../assets/menu.png'
 import BtnCantidad from '../components/BtnCantidad'
 import Formulario from '../components/Formulario'
 import BtnConfirmar from '../components/BtnConfirmar'
@@ -13,11 +13,14 @@ const Pedido = () => {
   const precioTotal = plato.precio * cantidad
 
   return (
-    <>  
+    <>
+      <div className="container">
+          <h1 className="text-center my-4">Viernes 29 de agosto</h1>
+      </div>  
       <div className="card m-2 mt-4">
         <div className="row g-0">
           <div className="col-4 my-auto">
-            <img src={imagenLomo} className="img-fluid rounded-start" alt={plato.nombre} />
+            <img src={imagenMenu} className="img-fluid rounded-start" alt={plato.nombre} />
           </div>
           <div className="col-8">
             <div className="card-body">

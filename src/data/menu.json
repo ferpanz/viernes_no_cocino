@@ -1,9 +1,8 @@
 [
   {
     "id": 1,
-    "nombre": "Lomo Strogonoff c/papas chips",
-    "descripcion": "lomo, crema, champignones, papas, dip de salsa picante",
-    
-    "precio": 8000
+    "nombre": "Dumplings",
+    "descripcion": "Carne de cerdo, zanahoria, cebolla, cebolla de verdeo, ajo y jengibre",
+    "precio": 9000
   }
 ]
