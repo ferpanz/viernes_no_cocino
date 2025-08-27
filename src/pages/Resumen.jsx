@@ -4,7 +4,7 @@ const Resumen = () => {
   return (
     <div>
       <h2>Resumen</h2>
-      <p>Acá se ve resumen de pedido | costo final | botón confirmar pedido</p>
+      <p>Aquí quiero que se vean los pedidos que han realizado</p>
     </div>
   )
 }
