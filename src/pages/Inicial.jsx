@@ -10,9 +10,9 @@ const Inicial = () => {
   return (
     <>
     <div className="container">
-      <h1 className="text-center my-4">Viernes 29 de agosto</h1>
+      <h1 className="text-center my-4">Viernes 5 de septiembre</h1>
     </div>
-    <div className="card mx-auto mt-2" style={{ width: '18rem' }}>
+    <div className="card mx-auto mt-2 text-bg-secondary" style={{ width: '18rem' }}>
       <img src={imagenMenu} className="card-img-top" alt={plato.nombre} />
       <div className="card-body">
         <h5 className="card-title">{plato.nombre}</h5>

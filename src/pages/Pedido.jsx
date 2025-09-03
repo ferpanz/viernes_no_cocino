@@ -15,9 +15,9 @@ const Pedido = () => {
   return (
     <>
       <div className="container">
-          <h1 className="text-center my-4">Viernes 29 de agosto</h1>
+          <h1 className="text-center my-4">Viernes 5 de septiembre</h1>
       </div>  
-      <div className="card m-2 mt-4">
+      <div className="card m-2 mt-4 text-bg-secondary">
         <div className="row g-0">
           <div className="col-4 my-auto">
             <img src={imagenMenu} className="img-fluid rounded-start" alt={plato.nombre} />
