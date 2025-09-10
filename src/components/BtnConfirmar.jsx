@@ -6,7 +6,7 @@ const BtnConfirmar = ({ cantidad, precioTotal, nombre, plato }) => {
     
 Quiero pedir *${cantidad} ${plato.nombre}* (${plato.descripcion}) por *$${precioTotal}*.
 
-*Podés retirar tu pedido el viernes 29 de agosto en Presidente Perón 440, de 21 a 22:30hs.*
+*Podés retirar tu pedido el ${plato.viernes} en Presidente Perón 440, de 21 a 22:30hs.*
 
 ¡¡GRACIAS!!`
     const url = `https://wa.me/5493571549039?text=${encodeURIComponent(mensaje)}`

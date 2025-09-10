@@ -10,7 +10,7 @@ const Inicial = () => {
   return (
     <>
     <div className="container">
-      <h1 className="text-center my-4">Viernes 5 de septiembre</h1>
+      <h1 className="text-center my-4">{plato.viernes}</h1>
     </div>
     <div className="card mx-auto mt-2 text-bg-secondary" style={{ width: '18rem' }}>
       <img src={imagenMenu} className="card-img-top" alt={plato.nombre} />

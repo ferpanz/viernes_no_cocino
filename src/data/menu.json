@@ -1,8 +1,9 @@
 [
   {
     "id": 1,
-    "nombre": "Bondiola Laqueada",
-    "descripcion": "Bondiola 🐖, Cerveza negra 🍺, mostaza, cebolla morada🧅, miel🍯, ajo🧄,laurel 🌿,Batatas 🍠, manteca/crema/leche🥛",
-    "precio": 9000
+    "nombre": "Chorizo a la Pomarola",
+    "descripcion": "COCINA CRIOLLA FUSIÓN ORIENTAL: con rollos primavera y ensalada de rúcula y pepino.",
+    "precio": 9000,
+    "viernes": "Viernes 12 de septiembre"
   }
 ]
